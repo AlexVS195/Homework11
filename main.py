@@ -19,10 +19,10 @@ class Field:
         self._value = new_value
 
     def validate_value(self, value):
-        pass  # Базова валідація, може бути розширена в підкласах
+        pass  
 
     def validate(self, value):
-        pass  # Базова валідація, може бути розширена в підкласах
+        pass  
 
     def __str__(self):
         return str(self.value)
